@@ -20,3 +20,13 @@ for lang in backend_languages:
 
 for index in range(0, 2):
     print(index)
+    
+## While Loop
+## Looping with a condition
+
+names = ["Brian", "Mathenge"]
+index = 0
+while index < len(names):
+    print(names[index])
+    # Change the condition
+    index = index + 1
